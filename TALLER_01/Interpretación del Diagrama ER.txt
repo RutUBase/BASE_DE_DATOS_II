@@ -1,0 +1,8 @@
+Tablas:
+Order: contiene la columna id.
+order_line: tiene id, quantity y está relacionada con Order y Product.
+Product: contiene id, name, price y está relacionada con Category.
+Category: contiene name.
+Hay dos subtipos en la entidad Product, que son:
+Food: que tiene expiration_date y calories.
+Furniture: que tiene manufacture_date.
